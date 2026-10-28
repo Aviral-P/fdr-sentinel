@@ -1,0 +1,72 @@
+{
+  "all_candidates_by_type": {
+    "amount_mismatch": 1,
+    "beneficiary_mismatch": 1,
+    "date_inconsistency": 1,
+    "exact_file_duplicate": 1,
+    "maturity_without_successor": 1,
+    "missing_required_document": 1,
+    "near_duplicate_document": 1,
+    "release_conditions_unresolved": 1,
+    "repeated_reference": 1,
+    "replacement_lineage_conflict": 1
+  },
+  "clean_control_records": 2,
+  "clean_control_records_flagged": 0,
+  "documents": 11,
+  "evaluation_date": "2026-10-25",
+  "false_positive_candidates_on_clean_records": 0,
+  "false_positive_types_on_clean_records": [],
+  "instruments": 13,
+  "known_discrepancies_detected": 7,
+  "known_discrepancies_total": 7,
+  "known_discrepancy_by_rule": {
+    "amount_mismatch": {
+      "detected": 1,
+      "expected": 1
+    },
+    "beneficiary_mismatch": {
+      "detected": 1,
+      "expected": 1
+    },
+    "date_inconsistency": {
+      "detected": 1,
+      "expected": 1
+    },
+    "maturity_without_successor": {
+      "detected": 1,
+      "expected": 1
+    },
+    "missing_required_document": {
+      "detected": 1,
+      "expected": 1
+    },
+    "release_conditions_unresolved": {
+      "detected": 1,
+      "expected": 1
+    },
+    "replacement_lineage_conflict": {
+      "detected": 1,
+      "expected": 1
+    }
+  },
+  "known_discrepancy_recall_on_planted_cases": 1.0,
+  "known_duplicate_pair_recall_on_planted_cases": 1.0,
+  "known_duplicate_pairs_detected": 3,
+  "known_duplicate_pairs_total": 3,
+  "known_duplicates_by_rule": {
+    "exact_file_duplicate": {
+      "detected": 1,
+      "expected": 1
+    },
+    "near_duplicate_document": {
+      "detected": 1,
+      "expected": 1
+    },
+    "repeated_reference": {
+      "detected": 1,
+      "expected": 1
+    }
+  },
+  "synthetic_label": "SYNTHETIC EVALUATION DATA \u2014 fictional records, no real banks or institutions."
+}
